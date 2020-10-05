@@ -1,0 +1,74 @@
+{
+ "Account": {
+     "Username": "Mhdadityaprtama",
+     "Password": "acit12345",
+     "2FA": "OFF"
+ },
+ "Cut Lose": "OFF",
+ "Client Seed": {
+     "Toggle": "OFF",
+     "If Random Chance": "ON",
+     "If Base Bet": "0.1",
+     "If Lose Streak": "0"
+  },
+ "Currency": "doge",
+ "Target Profit": "0",
+ "Target Lose": "0",
+ "Target Balance": "9999",
+ "Interval Change Betset": "1",
+ "Config": [{
+     "Name Bet Set": "0 - TESTER ",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "5",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "15",
+          "Max": "47",
+          "If Base Bet": "5",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose Streak": "4",
+              "If Win Streak": "2",
+              "If Bets":"0"
+          }
+     },
+     "If Win": "1",
+     "If Lose": "1.1",
+     "Repeat Jump If Lose": "ON",
+     "Jump If Lose": [{
+          "Toggle": "On",
+          "If Lose": "1.4",
+          "Number Of Bets": "60"
+          },{
+          "Toggle": "Off",
+          "If Lose": "1.7",
+          "Number Of Bets": "30"
+          },{
+          "Toggle": "Off",
+          "If Lose": "1.8",
+          "Number Of Bets": "30"
+          },{
+          "Toggle": "Off",
+          "If Lose": "7.5",
+          "Number Of Bets": "20"
+          }
+     ],
+     "Reset If Win Streak": "0",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00001",
+     "Interval": "1"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "252",
+       "Wallet Address": "DGguDrHvBkwVKDERGkXEz3QmQ46zTmRfKT",
+       "Amount": "11"
+      },
+  "User-Agent": "Android Phone / Chrome 61 [Mobile]: Mozilla/5.0 (Linux; Android 12.5; Marvel Xcore7 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36"
+}
